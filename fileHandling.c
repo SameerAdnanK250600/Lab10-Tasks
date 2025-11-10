@@ -17,6 +17,8 @@ int main() {
 	}
 	fclose(ptr);
 	
+	printf("\n\n");
+	
 	ptr = fopen("hi.txt", "a");
 	fprintf(ptr, "I just appended to a file!\n");
 	
